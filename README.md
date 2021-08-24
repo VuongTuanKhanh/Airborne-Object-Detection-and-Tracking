@@ -64,6 +64,7 @@ Flying airborne objects pose unique challenges compared to static obstacles. In 
 </ul>
 </div>
 
+<img src="./images/challenge_description.gif">
 
 ## <div align="center">Environments and Integrations</div>
 
