@@ -82,6 +82,13 @@ $ pip install -r requirements.txt
 
 </details>
 
+<details open>
+<summary>Tutorials</summary>
+
+* [About the AOT dataset](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)&nbsp; 🚀 RECOMMENDED
+
+</details>
+
 ## <div align="center">Environments and Integrations</div>
 
 
