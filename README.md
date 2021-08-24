@@ -39,8 +39,6 @@
 <br>
 <p>
 <a href="https://github.com/VuongTuanKhanh/Funix-Capstone-Project"><b>Object Detection project</b></a> 🚀 is the capstone project on object recognition through images and videos, inspired by the <a href="https://www.aicrowd.com/challenges/airborne-object-tracking-challenge">Airborne Object Tracking Challenge</a>
-<br>
-This project mainly works with <b>AOT</b> dataset, with a volume of up to 13TB, ambitious towards researching various algorithms such as <a href ="https://pjreddie.com/darknet/yolo/">YOLOv3</a>, <a href ="https://arxiv.org/abs/2004.10934">YOLOv4</a>, <a href ="https://github.com/ultralytics/yolov5">YOLOv5</a>, as well as <a href ="https://github.com/amazon-research/siam-mot">SiamMOT</a>. In addition to studying the paper and applying theory to practice, the project also aims to build custom libraries and deploy the project in practice.
 </p>
 
 ## <div align="center">About the Challenge</div>
