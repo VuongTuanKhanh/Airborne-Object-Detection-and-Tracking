@@ -68,9 +68,8 @@ Flying airborne objects pose unique challenges compared to static obstacles. In 
 
 ## <div align="center">Quick Start Examples</div>
 
-<details open>
+<details open align="left">
 <summary>Install</summary>
-<div align="left">
 
 [**Python>=3.6.0**](https://www.python.org/) is required with all
 [requirements.txt](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/requirements.txt) installed including
@@ -82,7 +81,7 @@ $ git clone https://github.com/VuongTuanKhanh/Funix-Capstone-Project
 $ cd Funix-Capstone-Project
 $ pip install -r requirements.txt
 ```
-</div>
+
 </details>
 
 ## <div align="center">Environments and Integrations</div>
