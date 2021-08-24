@@ -48,7 +48,7 @@ One of the important challenges of autonomous flight is the **Sense and Avoid (S
 
 The autonomous **SAA** module has to take on the tasks of situational awareness, decision making, and flying the aircraft, while performing an evasive maneuver.
 
-There are several alternatives for onboard sensing including radar, LIDAR, passive electro-optical sensors, and passive acoustic sensors. Solving the **SAA** task with visual cameras is attractive because cameras have relatively low weight and low cost.
+There are several alternatives for onboard sensing including radar, **LIDAR**, passive electro-optical sensors, and passive acoustic sensors. Solving the **SAA** task with visual cameras is attractive because cameras have relatively low weight and low cost.
 
 **For the purpose of this project, I consider a  solution that solely relies on a single visual camera and Computer Vision technique that analyzes a monocular video.**
 
@@ -88,6 +88,7 @@ $ pip install -r requirements.txt
 * [About the AOT dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/About-the-AOT-dataset)&nbsp; 🚀 RECOMMENDED
 * [Downloading the Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Downloading-AOT-dataset)&nbsp; ☘️ RECOMMENDED
 * [Exploring the Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Dataset_Exploration.ipynb)&nbsp; ⭐ RECOMMENDED
+* [Evaluation Benchmarks](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Evaluation-Benchmarks)&nbsp;
 
 </details>
 
