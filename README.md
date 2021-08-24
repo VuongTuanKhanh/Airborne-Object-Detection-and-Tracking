@@ -82,10 +82,11 @@ $ pip install -r requirements.txt
 
 </details>
 
-<details open>
+<details open align="left">
 <summary>Tutorials</summary>
 
-* [About the AOT dataset](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)&nbsp; 🚀 RECOMMENDED
+* [About the AOT dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/About-the-AOT-dataset)&nbsp; 🚀 RECOMMENDED
+* [Downloading the Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Downloading-AOT-dataset)&nbsp; ☘️ RECOMMENDED
 
 </details>
 
