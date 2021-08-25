@@ -89,6 +89,7 @@ $ pip install -r requirements.txt
 * [Downloading the Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Downloading-AOT-dataset)&nbsp; ☘️ RECOMMENDED
 * [Exploring the Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Dataset_Exploration.ipynb)&nbsp; ⭐ RECOMMENDED
 * [Evaluation Benchmarks](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Evaluation-Benchmarks)&nbsp;
+* [Mounting with Google Drive](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Uploading-Local-or-Google-Drive-Files-to-Use)&nbsp;
 
 </details>
 
