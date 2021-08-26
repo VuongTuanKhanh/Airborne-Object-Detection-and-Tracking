@@ -90,6 +90,7 @@ $ pip install -r requirements.txt
 * [Exploring the Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Dataset_Exploration.ipynb)&nbsp; ⭐ RECOMMENDED
 * [Evaluation Benchmarks](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Evaluation-Benchmarks)&nbsp;
 * [Mounting with Google Drive](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Uploading-Local-or-Google-Drive-Files-to-Use)&nbsp;
+* [Collecting Custom Data](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Collecting-Custom-Data)&nbsp;
 
 </details>
 
