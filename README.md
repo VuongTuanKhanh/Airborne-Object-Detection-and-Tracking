@@ -89,10 +89,17 @@ $ pip install -r requirements.txt
 * [Downloading the Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Downloading-AOT-dataset)&nbsp; ☘️ RECOMMENDED
 * [Exploring the Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Dataset_Exploration.ipynb)&nbsp; ⭐ RECOMMENDED
 * [Evaluation Benchmarks](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Evaluation-Benchmarks)&nbsp;
-* [Mounting with Google Drive](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Uploading-Local-or-Google-Drive-Files-to-Use)&nbsp;
 * [Baseline with YOLOv3](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Baseline.ipynb)&nbsp; ⭐ RECOMMENDED
-* [Collecting Custom Data](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Collecting-Custom-Data)&nbsp;
 * [Training YOLOv3 with AOT](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Train-YOLOv3-with-the-AOT-Dataset)&nbsp; ⭐ RECOMMENDED
+
+</details>
+
+<details open align="left">
+<summary>Basic Actions</summary>
+
+* [Mounting with Google Drive](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Uploading-Local-or-Google-Drive-Files-to-Use)&nbsp;
+* [Collecting Custom Data](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Collecting-Custom-Data)&nbsp;
+
 
 </details>
 
