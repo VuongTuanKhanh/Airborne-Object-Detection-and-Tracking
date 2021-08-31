@@ -154,3 +154,85 @@ def mdprint(text):
         'text/markdown': text,
         'text/plain': text
     }, raw=True)
+
+
+def remove_numbers(s):
+    """Remove any number in a string
+
+    Args:
+        s (str): A string that need to remove number
+
+    Returns:
+        A formatted string with no number
+    """
+    return ''.join([i for i in s if not i.isdigit()])
+
+
+def get_unique_keys(dataset):
+    """Return unique keys of the dataset
+
+    Args:
+        dataset (object): The instance that holds data
+
+    Returns:
+        list: A list of unique_keys
+    """
+    all_keys = []
+    for flight_id in dataset.get_flight_ids():
+        flight = dataset.get_flight(flight_id)
+        all_keys.extend([remove_numbers(k) for k in flight.detected_objects])
+
+    unique_keys = list(set(all_keys))
+    return unique_keys
+
+
+def get_rows(dataset):
+    """Get all rows of the dataset
+
+    Args:
+        dataset (object): The instance that holds data
+
+    Returns:
+        list: A list of data, once per element
+    """
+    # A variable to store every lines
+    rows = []
+    # Iter through every flight
+    for flight_id in dataset.get_flight_ids():
+        # Get the flight by id
+        flight = dataset.get_flight(flight_id)
+        # Iter through every detected object
+        for obj_key in flight.detected_objects:
+            # Remove the number
+            object_type = remove_numbers(obj_key)
+            # Get the object
+            obj = flight.detected_objects[obj_key]
+            # Get the location of every objects
+            for loc in obj.location:
+                # Get bbox
+                bbox = loc.bb.get_bbox()
+                # Get frame id
+                frame_id = loc.frame.id
+                # Get distance, return nan if that object is not planned
+                range_distance = loc.range_distance_m
+                # Get the image path
+                image_path = loc.frame.image_path()
+                # Append to the list
+                rows.append([flight_id, object_type, obj_key, frame_id,
+                            *bbox, bbox[-1]*bbox[-2], image_path, range_distance])
+
+    return rows
+
+
+def make_dataframe(dataset, columns):
+    # Get all rows of the dataset
+    rows = get_rows(dataset)
+
+    import pandas as pd
+    # Initialize the dataframe
+    df = pd.DataFrame(rows)
+    # Rename the dataframe columns
+    df.columns = columns
+
+    # Return the dataframe
+    return df
