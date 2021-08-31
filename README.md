@@ -93,6 +93,7 @@ $ pip install -r requirements.txt
 * [Baseline with Pre-train YOLOv3](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Baseline.ipynb)&nbsp; ☘️ RECOMMENDED
 * [Tutorial on how to train YOLOv3 with AOT dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Train-YOLOv3-with-the-AOT-Dataset)&nbsp; ⭐ THEORY
 * [Airborne Object Detection Benchmark](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Airborne_Object_Detection_Benchmark.ipynb)&nbsp; 🚀 MODEL
+* [Airplane and Helicopter Tracking Benchmark](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Airplane_and_Helicopter_Tracking_Benchmark.ipynb)&nbsp; 🚀 MODEL
 
 </details>
 
