@@ -89,6 +89,7 @@ $ pip install -r requirements.txt
 * [Downloading the Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Downloading-AOT-dataset)&nbsp; ☘️ RECOMMENDED
 * [Exploring the Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Dataset_Exploration.ipynb)&nbsp; ⭐ RECOMMENDED
 * [Evaluation Benchmarks](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Evaluation-Benchmarks)&nbsp;
+* [Dataset EDA and Download](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Dataset_EDA_and_Download.ipynb)
 * [Baseline with Pre-train YOLOv3](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Baseline.ipynb)&nbsp; ☘️ RECOMMENDED
 * [Training YOLOv3 with AOT](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Train-YOLOv3-with-the-AOT-Dataset)&nbsp; ⭐ RECOMMENDED
 * [Airborne Object Detection Benchmark](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Airborne_Object_Detection_Benchmark.ipynb)
