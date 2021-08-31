@@ -225,6 +225,15 @@ def get_rows(dataset):
 
 
 def make_dataframe(dataset, columns):
+    """Generate a dataframe from a dataset with specific columns
+
+    Args:
+        dataset (object): Instance object that store the dataset
+        columns (list): List of column names
+
+    Returns:
+        dataframe: A dataframe format of the dataset
+    """
     # Get all rows of the dataset
     rows = get_rows(dataset)
 
@@ -236,3 +245,38 @@ def make_dataframe(dataset, columns):
 
     # Return the dataframe
     return df
+
+
+def drawBoundingBoxes(imageInputPath, imageOutputPath, inferenceResults, color):
+    """Draw bounding boxes on an image.
+    
+    Args:
+        imageData: image data in numpy array format
+        imageOutputPath: output image file path
+        inferenceResults: inference results array off object (l,t,w,h)
+        colorMap: Bounding box color candidates, list of RGB tuples.
+    """
+    import cv2, sys
+    # Read the cv2 format of the image
+    imageData = cv2.imread(imageInputPath)
+    # Iter through the inferenceResults
+    for res in inferenceResults:
+        # Get the four dimensions
+        left = int(res['left'])
+        top = int(res['top'])
+        right = int(res['left']) + int(res['width'])
+        bottom = int(res['top']) + int(res['height'])
+        
+        # Get the label
+        label = res['label']
+        # Get the shape of the image
+        imgHeight, imgWidth, _ = imageData.shape
+        thick = int((imgHeight + imgWidth) // 900)
+        print (left, top, right, bottom)
+        
+        # Draw the bounding box
+        cv2.rectangle(imageData,(left, top), (right, bottom), color, thick)
+        cv2.putText(imageData, label, (left, top - 12), 0, 1e-3 * imgHeight, color, thick//3)
+    
+    # Show the image with annotation
+    plt.imshow(imageData)
