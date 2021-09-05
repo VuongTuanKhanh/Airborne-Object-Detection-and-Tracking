@@ -96,6 +96,7 @@ $ pip install -r requirements.txt
 * [Local Logging Visualization](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/YOLOv5_Evaluation_with_Local_Logging.ipynb)&nbsp; ☘️ VISUALIZE
 * [WanDB Live Visualization](https://wandb.ai/vuongtuankhanh/YOLOv5/reports/YOLOv5-on-Airborne-Object-Tracking-dataset--Vmlldzo5ODkxNjg)&nbsp; 🚀 VISUALIZE
 * [End-to-end YOLOv5 with AOT Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/End-to-end%20YOLOv5%20with%20AOT%20Dataset.ipynb)&nbsp; 🚀 HIGHLY RECOMMENDED
+* [Docker image with FLASK](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/End-to-end%20YOLOv5%20with%20AOT%20Dataset.ipynb)&nbsp; 🚀 DEPLOYMENT
 
 </details>
 
