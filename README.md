@@ -102,7 +102,7 @@ $ pip install -r requirements.txt
 <details open align="left">
 <summary>Deploymens</summary>
 
-* [Docker image with FLASK](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/End-to-end%20YOLOv5%20with%20AOT%20Dataset.ipynb)&nbsp; 🚀 DEPLOYMENT
+* [Docker image with FLASK](https://hub.docker.com/r/khanhvuongtuan/yolov5_web)&nbsp; 🚀 DEPLOYMENT
 * [Heroku App](https://aot-flask-demo.herokuapp.com/)&nbsp;
 
 </details>
