@@ -4,9 +4,9 @@
 </p>
 <br>
 <div>
-<a href="./tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+<a href="https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/End-to-end%20YOLOv5%20with%20AOT%20Dataset.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 <a href="./tutorial.ipynb"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
-<a href="#"><img src="https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker" alt="Docker Pulls"></a>
+<a href="https://hub.docker.com/r/khanhvuongtuan/yolov5_web"><img src="https://img.shields.io/docker/pulls/khanhvuongtuan/yolov5_web?logo=docker" alt="Docker Pulls"></a>
 </div>
 
   <br>
