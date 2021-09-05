@@ -97,6 +97,7 @@ $ pip install -r requirements.txt
 * [WanDB Live Visualization](https://wandb.ai/vuongtuankhanh/YOLOv5/reports/YOLOv5-on-Airborne-Object-Tracking-dataset--Vmlldzo5ODkxNjg)&nbsp; 🚀 VISUALIZE
 * [End-to-end YOLOv5 with AOT Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/End-to-end%20YOLOv5%20with%20AOT%20Dataset.ipynb)&nbsp; 🚀 HIGHLY RECOMMENDED
 * [Docker image with FLASK](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/End-to-end%20YOLOv5%20with%20AOT%20Dataset.ipynb)&nbsp; 🚀 DEPLOYMENT
+* [Heroku App](https://aot-flask-demo.herokuapp.com/)&nbsp;
 
 </details>
 
