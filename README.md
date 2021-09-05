@@ -100,7 +100,7 @@ $ pip install -r requirements.txt
 </details>
 
 <details open align="left">
-<summary>Deploymens</summary>
+<summary>Deployments</summary>
 
 * [Docker image with FLASK](https://hub.docker.com/r/khanhvuongtuan/yolov5_web)&nbsp; 🚀 DEPLOYMENT
 * [Heroku App](https://aot-flask-demo.herokuapp.com/)&nbsp;
