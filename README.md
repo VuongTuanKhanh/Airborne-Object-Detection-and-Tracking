@@ -105,6 +105,7 @@ $ pip install -r requirements.txt
 
 * [Mounting with Google Drive](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Uploading-Local-or-Google-Drive-Files-to-Use)&nbsp;
 * [Collecting Custom Data](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Collecting-Custom-Data)&nbsp;
+* [Deploy YOLOv5 Web Service with Flask and Docker Image](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Deploy-YOLOv5-Web-Service-with-Flask-and-Docker-Image)&nbsp;
 
 
 </details>
