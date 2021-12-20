@@ -147,6 +147,12 @@ $ pip install -r requirements.txt
 
 We love your input! We want to make contributing to this project as easy and transparent as possible. Please see
 our [Contributing Guide](CONTRIBUTING.md) to get started.
+  
+## <div align="center">Special Thank</div>
+
+We would like to give our biggest thanks to **AICrowd** for the great challenge as well as the incredible guidance along the way.
+  
+**Contact:** [AICrowd](airborne-object-tracking-challenge@amazon.com)
 
 ## <div align="center">Contact</div>
 
