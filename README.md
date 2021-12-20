@@ -94,7 +94,7 @@ $ pip install -r requirements.txt
 * [Tutorial on how to train YOLOv3 with AOT dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/wiki/Train-YOLOv3-with-the-AOT-Dataset)&nbsp; ⭐ THEORY
 * [Airborne Object Detection Benchmark](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/Airborne_Object_Detection_Benchmark.ipynb)&nbsp; 🚀 MODEL
 * [Local Logging Visualization](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/YOLOv5_Evaluation_with_Local_Logging.ipynb)&nbsp; ☘️ VISUALIZE
-* [WanDB Live Visualization](https://wandb.ai/vuongtuankhanh/YOLOv5/reports/YOLOv5-on-Airborne-Object-Tracking-dataset--Vmlldzo5ODkxNjg)&nbsp; 🚀 VISUALIZE
+* [WanDB Live Visualization](https://wandb.ai/vuongtuankhanh/YOLOv5/reports/YOLOv5-on-Airborne-Object-Tracking-dataset--Vmlldzo5ODkxNjg?accessToken=apu4wzaram3clcrcppdabms6exmlvya98iw25x5r460688vfrblbqkg6wz282swr)&nbsp; 🚀 VISUALIZE
 * [End-to-end YOLOv5 with AOT Dataset](https://github.com/VuongTuanKhanh/Funix-Capstone-Project/blob/main/notebooks/End-to-end%20YOLOv5%20with%20AOT%20Dataset.ipynb)&nbsp; 🚀 HIGHLY RECOMMENDED
 
 </details>
