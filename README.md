@@ -75,7 +75,7 @@ Flying airborne objects pose unique challenges compared to static obstacles. In 
 <!-- $ sudo apt update && apt install -y libgl1-mesa-glx libsm6 libxext6 libxrender-dev -->
 
 ```bash
-$ git clone https://github.com/VuongTuanKhanh/Funix-Capstone-Project
+$ git clone https://github.com/VuongTuanKhanh/Airborne-Object-Detection-and-Tracking
 $ cd Funix-Capstone-Project
 $ pip install -r requirements.txt
 ```
